@@ -167,7 +167,9 @@ a:hover{
     animation-name: workimage;
     animation-duration: 3s;
     animation-delay: 0.5s;
-    animation-fill-mode: forwards;
+    
+    animation-iteration-count: infinite;
+
 }
 .workimage1{
     position: relative;
@@ -179,7 +181,8 @@ a:hover{
     animation-name: workimage;
     animation-duration: 3s;
     animation-delay: 0.5s;
-    animation-fill-mode: forwards;
+    
+    animation-iteration-count: infinite;
 }
 @keyframes workimage{
     from{
